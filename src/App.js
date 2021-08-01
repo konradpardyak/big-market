@@ -1,10 +1,11 @@
 import './App.css';
+import Theme from './Theme';
 
 function App() {
   return (
-    <div>
+    <Theme>
       Big Market
-    </div>
+    </Theme>
   );
 }
 
