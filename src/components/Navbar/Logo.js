@@ -4,6 +4,10 @@ import LogoIcon from '../icons/LogoIcon';
 const StyledLogo = styled.div`
   display: flex;
   align-items: center;
+  flex-grow: 1;
+  @media (min-width: 600px) {
+    justify-content: center;
+  }
   `
 const StyledHeader = styled.h1`
   color: ${props => props.theme.colors.main};
