@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import ShoppingBagIcon from '../icons/ShoppingBagIcon';
+import IconButton from '../shared/IconButton';
 
 const StyledShoppingBag = styled.div`
   position: relative;
@@ -20,10 +21,12 @@ const ItemsCounter = styled.div`
 
 const ShoppingBag = () => {
   return(
-    <StyledShoppingBag>
-      <ShoppingBagIcon size="2rem" />
-      <ItemsCounter>0</ItemsCounter>
-    </StyledShoppingBag>
+    <IconButton>
+      <StyledShoppingBag>
+        <ShoppingBagIcon size="2rem" />
+        <ItemsCounter>0</ItemsCounter>
+      </StyledShoppingBag>
+    </IconButton>
   )
 }
 
