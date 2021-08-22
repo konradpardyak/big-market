@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+const Button = styled.button`
   background: ${props => props.theme.gradients.main};
   height: 2rem;
   border: none;
@@ -12,10 +12,4 @@ const StyledButton = styled.button`
   line-height: .75rem;
   cursor: pointer;
 `
-const Button = ({children}) => {
-  return(
-    <StyledButton tyle="button">{children}</StyledButton>
-  )
-}
-
 export default Button;
