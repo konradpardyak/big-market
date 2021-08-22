@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/big-market/static/css/main.c64df0f5.chunk.css",
+    "main.js": "/big-market/static/js/main.84c70bc1.chunk.js",
+    "main.js.map": "/big-market/static/js/main.84c70bc1.chunk.js.map",
+    "runtime-main.js": "/big-market/static/js/runtime-main.8361e254.js",
+    "runtime-main.js.map": "/big-market/static/js/runtime-main.8361e254.js.map",
+    "static/js/2.7ea278c1.chunk.js": "/big-market/static/js/2.7ea278c1.chunk.js",
+    "static/js/2.7ea278c1.chunk.js.map": "/big-market/static/js/2.7ea278c1.chunk.js.map",
+    "index.html": "/big-market/index.html",
+    "static/css/main.c64df0f5.chunk.css.map": "/big-market/static/css/main.c64df0f5.chunk.css.map",
+    "static/js/2.7ea278c1.chunk.js.LICENSE.txt": "/big-market/static/js/2.7ea278c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8361e254.js",
+    "static/js/2.7ea278c1.chunk.js",
+    "static/css/main.c64df0f5.chunk.css",
+    "static/js/main.84c70bc1.chunk.js"
+  ]
+}
