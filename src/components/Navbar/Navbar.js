@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import MenuIcon from '../icons/MenuIcon';
 import Categories from './Categories';
 import Logo from './Logo';
+import Menu from './Menu';
 import ShoppingBag from './ShoppingBag';
 
 const StyledNavbar = styled.div`
@@ -13,25 +14,54 @@ const StyledNavbar = styled.div`
   flex-direction: row-reverse;
   flex-wrap: wrap;
   @media (min-width: 600px) {
-    padding: 1rem;
+    height: 75px;
   }
 `
-const StyledGroup = styled.div`
+const ButtonsGridItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-grow: 1;
+  @media (min-width: 816px) {
+    width: 350px;
+    flex-grow: 0;
+  }
+`
+const LogoGridItem = styled.div`
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  @media (min-width: 600px) {
+    flex-grow: 0;
+    width: 100px;
+  }
+  @media (min-width: 816px) {
+    flex-grow: 1;
+    justify-content: center;
+  }
+`
+const CategoriesGridItem = styled.div`
+  width: 100%;
+  margin-top: .5rem;
+  @media (min-width: 600px) {
+    margin-top: 0;
+    width: 350px;
+  }
 `
 
 const Navbar = () => {
   return(
     <StyledNavbar>
-      <StyledGroup>
+      <ButtonsGridItem>
         <ShoppingBag />
-        <MenuIcon size ="2.2rem"/>
-      </StyledGroup>
-      <Logo />
-      <Categories />
+        <Menu/>
+      </ButtonsGridItem>
+      <LogoGridItem>
+        <Logo />
+      </LogoGridItem>
+      <CategoriesGridItem>
+        <Categories />
+      </CategoriesGridItem>
     </StyledNavbar>
   )
 }
