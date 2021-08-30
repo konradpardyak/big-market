@@ -3,6 +3,7 @@ import LogoIcon from '../icons/LogoIcon';
 
 const StyledLogo = styled.div`
   display: flex;
+  cursor: pointer;
 `
 const LogoPic = styled.div`
   background: ${props => props.theme.gradients.main};
