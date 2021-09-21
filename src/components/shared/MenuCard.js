@@ -4,7 +4,7 @@ const StyledMenuCard = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   z-index: 100;
   top: 0;
   width: 80%;
