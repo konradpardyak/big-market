@@ -33,7 +33,7 @@ const Shadow = styled.div`
   width: 100%;
   height: 100vh;
   background-color: rgba(0,0,0, .4);
-  transition: visibility 0s, opacity 0.3s ease-in-out;
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
   visibility: ${({ isOpen }) => isOpen ? "visible" : "hidden"};
   opacity: ${({ isOpen }) => isOpen ? 1 : 0};
 `

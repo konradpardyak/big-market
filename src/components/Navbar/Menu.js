@@ -36,12 +36,18 @@ const Menu = () => {
           <HorizlontalLine />
           <MenuCardListItem>
             <PersonIcon size="1.75rem" />
-            Account
+            <h6>My Account</h6>
           </MenuCardListItem>
           <MenuCardListItem>
             <HeartIcon size="1.75rem" />
-            Wishlist
+            <h6>Wishlist</h6>
           </MenuCardListItem>
+          <MenuCardListItem><span/>My Orders</MenuCardListItem>
+          <MenuCardListItem><span/>Coupons</MenuCardListItem>
+          <MenuCardListItem><span/>Delivery address</MenuCardListItem>
+          <MenuCardListItem><span/>Payment methods</MenuCardListItem>
+          <MenuCardListItem><span/>Account settings</MenuCardListItem>
+          <MenuCardListItem><span/>Sign Out</MenuCardListItem>
         </MenuCardList>
       </MenuCard>
     </StyledMenu>

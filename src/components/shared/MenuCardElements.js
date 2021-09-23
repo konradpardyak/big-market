@@ -21,6 +21,10 @@ const StyledMenuCardList = styled.ul`
   list-style-type: none;
 `
 const StyledMenuCardListItem = styled.li`
+  h6 {
+    font-size: 1rem;
+    font-weight: 800;
+  }
   a {
     display: flex;
     align-items: center;
@@ -33,7 +37,10 @@ const StyledMenuCardListItem = styled.li`
     cursor: pointer;
   }
   svg {
-    margin-right: .5rem;
+    margin-right: .25rem;
+  }
+  span {
+    width: 2rem;
   }
 `
 export const HorizlontalLine = styled.div`
