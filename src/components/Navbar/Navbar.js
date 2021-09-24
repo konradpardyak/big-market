@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Categories from './Categories';
 import Logo from './Logo';
 import Menu from './Menu';
-import Account from './Account';
+import AccountDropdown from './AccountDropdown';
 import Wishlist from './Wishlist';
 import ShoppingBag from './ShoppingBag';
 
@@ -54,7 +54,7 @@ const Navbar = () => {
   return(
     <StyledNavbar>
       <ButtonsGridItem>
-        <Account />
+        <AccountDropdown />
         <Wishlist />
         <ShoppingBag />
         <Menu/>
