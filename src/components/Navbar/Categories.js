@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import MenuIcon from '../icons/MenuIcon';
 import IconButton from '../shared/IconButton';
 import MenuCard from '../shared/MenuCard';
-import MenuCardHeader from '../shared/MenuCardHeader';
+import { MenuCardHeader } from '../shared/MenuCardElements';
 import SearchBar from './SearchBar';
 
 const StyledCategories = styled.div`
