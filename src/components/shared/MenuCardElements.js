@@ -19,6 +19,7 @@ const StyledMenuCardList = styled.ul`
   margin: 0;
   padding: .25rem 0;
   list-style-type: none;
+  overflow-y: auto;
 `
 const StyledMenuCardListItem = styled.li`
   h6 {

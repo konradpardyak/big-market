@@ -10,6 +10,7 @@ const LogoPic = styled.div`
   width: 2.5rem;
   height: 2.5rem;
   border-radius: .5rem;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
 `
 const StyledHeader = styled.h1`
   display: flex;
